@@ -51,7 +51,7 @@
 
 
 .img-principal{
-    background-image: url('../img/OIG1.jpg');
+    background-image: url(../img/OIG1.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: 50% 45%;
@@ -60,13 +60,13 @@
 }
 
 .img-secundaria{
-    background-image: url('../img/img-interior.jpg');
+    background-image: url(../img/img-interior.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
 }
 .img-terciaria{
-    background-image: url('/img/img-interior.jpg');
+    background-image: url(../img/img-interior.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 } 
