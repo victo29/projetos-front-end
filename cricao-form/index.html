@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="" class="nav-link">Principal</a></li>
+            <li><a href="" class="nav-link">Trabalhe Conosco</a></li>
+            <li><a href="" class="nav-link">Fornecedores</a></li>
+            <li><a href="" class="nav-link">Parceiros</a></li>
+        </ul>
+    </header>
+
+    <form action="">
+        <h1>Fale Conosco</h1>
+        <fieldset>
+            <legend>identificação do Usuário</legend>
+            <label for="nome-completo">Nome Completo</label>
+            <input type="text" name="nome-completo" size="50" maxlength="60" id="form-itens"><br>
+
+            <label for="endereco">Endereço</label>
+            <input type="text" size="50" id="form-itens"><br>
+
+            <label for="numero">Nº</label>
+            <input type="number" id="form-itens" min="0" max="1000" placeholder="0">
+            <label for="cidade">Cidade</label>
+            <input list="cidade"  id="form-itens" >
+            <datalist id="cidade">
+                <option value="Salvador"></option>
+                <option value="Lauro de Freitas"></option>
+                <option value="Camaçari"></option>
+            </datalist><br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="form-itens" id="">
+                <option value="BA">BA</option>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" id="input-tipo-radio" name="sexo">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="input-tipo-radio" name="sexo">
+            <label for="feminino" >Feminino</label>
+            <input type="radio" id="input-tipo-radio" name="sexo">
+            <label for="feminino">N/A</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Data de Nascimento</legend>
+            
+            <input type="date" name="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Áreas do Interesse</legend>
+            <input type="checkbox" name="areas" id="">
+            <label for="areas">Humanas</label>
+            <input type="checkbox" name="areas" id="">
+            <label for="areas">Matemática</label>
+            <input type="checkbox" name="areas" id="">
+            <label for="areas">Fazer programa</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem do Usuário</legend>
+            <label for="grau">Grau de Urgência</label><br>
+            <p>Baixo </p><input type="range" min="0" max="10" step="2"><p> Alto</p>
+            <br>
+            <br>
+            <label for="msg">Mensagem</label><br>
+            <textarea name="" id="text-area" cols="60" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="file">
+            <br>
+        </fieldset>
+        <button>Enviar</button>
+        
+    </form>
+</body>
+</html>

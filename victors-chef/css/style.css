@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+.cor-tema{
+    background-color: #30506B;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link-not-selected::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.3s; 
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link-not-selected:hover::after{
+    content: '';
+    opacity: 1;
+   
+}
+
+.nav-link-selected::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.carousel-inner{
+    height: 20em;
+}
+
+
+
+.img-principal{
+    background-image: url('/img/OIG1.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    
+
+}
+
+.img-secundaria{
+    background-image: url('/img/img-interior.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-terciaria{
+    background-image: url('/img/img-interior.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+} 
+
+.box-titulo{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.titulo{
+    width: 400px;
+    height: 20px;
+    font-size:large;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #30506B;
+    color: #30506B;
+
+    
+}
+
+
+.btn-filtro{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+
+.conteudo{
+    margin-top: 40px;
+    display: flex;
+    margin-left:auto; 
+    flex-wrap: wrap;
+    width: 90%;
+    
+
+}
+.box{
+    width: 350px;
+    height: 270px;
+    background-color: #E2E9F4;
+    margin: auto;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.box-image{
+    max-width: 100%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.image{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.box-nome-prato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px ;
+}
+
+.nome-prato{
+    width: 90%;
+    color: #30506B;
+    
+    text-align: center;
+    
+    
+}
+
+.veja-mais{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 5px;
+}
+
+.veja-mais a{
+    color: #30506B;
+    width: 90%;
+    text-decoration: none;
+}
+
+.veja-mais a:hover{
+    text-decoration: underline;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30506B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e3141; 
+}  
+
+
+.box-curtida{
+    width: 20px;
+    height: 20px;
+    margin:15px;
+    margin-left: auto;
+}
+
+.box-curtida button{
+    border: 0px;
+    background-color: #E2E9F4;
+}
+
+.box-curtida img{
+    width: 100%;
+    
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+
+}
+
+#box-curtida-fill{
+    visibility:collapse;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    margin-top: 15px;
+}
+
+
+footer{
+    background-color: #1e3141;
+    height: 60px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-icons{
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.box-icons a{
+    color: #1e3141;
+    background-color: white;
+    width: 36px;
+    height: 36px;
+    margin: auto;
+    border-radius: 25px;
+    
+    
+}
+
+.icons{
+    margin-top: 5.2px;
+}
+
+
+
+

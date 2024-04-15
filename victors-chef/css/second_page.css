@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+
+
+.box-ceos{
+    width: 100%;
+    height: 19em;
+    background-image: url('/img/background.png');
+    background-size: cover;
+    background-repeat: repeat;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box-image-ceo{
+    width: 12em;
+    height: 12em;
+    margin: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+.box-image-ceo img{
+    width:100%;
+    border-radius: 50%;
+    border: 4px solid #30506B ;
+}
+
+.box-title-ceos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+}
+
+.box-title-ceos h2{
+   color: #30506B;
+   width: 300px;
+   border-bottom: 3px solid #30506B;
+
+}
+
+.container-box-ceo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.box-titulo-historia-empresa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.box-titulo-historia-empresa h1{
+    color: #30506B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-image-historia-empresa{
+    width: 300px;
+    height: 500px;
+    
+}
+
+.box-image-historia-empresa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 4px solid #30506B;
+}
+
+.contenteudo-historia-empresa{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-text-historia-empresa{
+    width: 500px;
+    height: 19%;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-bottom: 3px solid #30506B;
+   
+}
+
+.box-text-historia-empresa span{
+    font-size: larger;
+    color: #30506B;
+    font-weight: bold;
+}
+
+
+@media (max-width:900px) {
+    .box-image-ceo{
+        width: 12em;
+        height: 12em;
+        margin: 5px;
+        margin-bottom: 5px;
+    }    
+    
+}
+
+@media (max-width: 600px) {
+    .box-text-historia-empresa{
+        margin-left: 0px;
+        width: 300px;
+    }
+    
+    
+
+
+}
+
+@media (max-width: 500px) {
+    .box-ceos{
+        height: 12em;
+    }
+}
+
+
+

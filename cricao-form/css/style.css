@@ -1,0 +1,87 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:  rgba(6, 58, 153, 0.616);
+}
+
+.nav-link:hover{
+    color: rgb(3, 24, 63);
+    border-bottom: 2px solid  rgb(3, 24, 63);
+    transition: 0.5s;
+}
+
+ul{
+    list-style-type: none;
+    background-color:  rgba(0, 83, 236, 0.253) ;
+    text-align: center;
+    padding: 15px;
+}
+
+#form-itens{
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.473)
+    
+}
+
+fieldset{
+    background-color: rgba(0, 83, 236, 0.253);
+    border-radius: 5px;
+    border: 1px solid rgba(6, 58, 153, 0.616);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+}
+
+
+
+form{
+    max-width: 500px;
+    color:rgba(6, 58, 153, 0.616) ;
+    margin: auto;
+}
+
+form h1{
+    color:  rgba(6, 58, 153, 0.616);
+    text-align: center;
+}
+
+legend{
+    margin-left: 15px;
+}
+
+#input-tipo-radio{
+    accent-color:rgb(0, 81, 255);
+}
+p{
+    display: inline;
+}
+
+#text-area{
+
+    border-radius: 10px;
+   
+}
+
+button{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 60px;
+    border: 2px solid  rgba(6, 58, 153, 0.616);
+    border-radius: 15px;
+    background-color:  rgba(6, 58, 153, 0.616);
+    color: white;
+    height: 30px;
+}
